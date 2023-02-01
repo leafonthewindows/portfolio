@@ -1,0 +1,22 @@
+.wrapper {
+    background-color: black;
+    color: #eee;
+}
+
+.content{
+    height: calc(100vh - 50px);
+    overflow: auto;
+    scroll-behavior: smooth;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+@media (prefers-reduced-motion){
+    main {
+        scroll-behavior: reduce;
+    }
+}
+
+/* background: #000
+secondary: #eee
+accent: #099 */

@@ -1,0 +1,22 @@
+.title{
+    /* padding-top: 3rem; */
+    font-size: 3rem;
+}
+
+.about-div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-paragraph{
+    max-width: 1000px;
+    padding: 0rem 1rem;
+}
+
+@media(min-width: 600px){
+    .about-paragraph{
+        font-size: 1.5rem;
+        padding: 1rem 3rem;
+    }
+}

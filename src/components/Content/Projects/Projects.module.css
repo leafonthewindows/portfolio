@@ -1,0 +1,16 @@
+.title{
+    font-size: 3rem;
+}
+
+.projectList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project{
+    display: inline;
+    /* width: 300px; */
+    /* height: auto; */
+    margin: 0.5rem;
+}
