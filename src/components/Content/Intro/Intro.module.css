@@ -1,7 +1,6 @@
 .intro-wrapper{
     display: flex;
     flex-direction: column;
-    flex: 1;
     min-height: calc(100vh - 40px);
     text-align: center;
     animation: 1s ease-in-out .2s 1 both rise-up;
@@ -38,8 +37,8 @@
 }
 
 .large-pic{
-    height: 400px;
-    width: auto;
+    max-height: 400px;
+    max-width: 100%;
     border-radius: 5px;
 }
 
@@ -62,7 +61,7 @@
     }
     
     .text{
-        width: 55%;
+        width: calc(55% - 2rem);
     }
 
     .text h1{
@@ -94,8 +93,8 @@
             font-size: 2.2rem;
         }
 
-        .pic{
-            height: 500px;
+        .large-pic{
+            max-height: 500px;
         }
     }
 }
