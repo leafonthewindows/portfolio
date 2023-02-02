@@ -5,6 +5,7 @@
 
 .content{
     height: calc(100vh - 50px);
+    width: 100vw;
     overflow: auto;
     scroll-behavior: smooth;
     padding: 0rem;
