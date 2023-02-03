@@ -1,10 +1,10 @@
 .wrapper {
     background-color: black;
     color: #eee;
+    height: 100%;
 }
 
 .content{
-    height: calc(100vh - 50px);
     overflow: auto;
     scroll-behavior: smooth;
     padding: 0rem;
