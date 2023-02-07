@@ -82,19 +82,31 @@
         align-items: center;
         width: 45%;
     }
+}
+@media(min-width: 1024px) {
+    
+    .text h1{
+        font-size: 3.5rem;
+    }
 
-    @media((min-width: 1008px)) {
-        
-        .text h1{
-            font-size: 3.5rem;
-        }
+    .text p{
+        font-size: 2.2rem;
+    }
 
-        .text p{
-            font-size: 2.2rem;
-        }
+    .large-pic{
+        max-height: 500px;
+    }
+}
+@media(min-width:1920px){
+    .text h1{
+        font-size: 5rem;
+    }
 
-        .large-pic{
-            max-height: 500px;
-        }
+    .text p{
+        font-size: 3.5rem;
+    }
+
+    .large-pic{
+        max-height: 800px;
     }
 }
