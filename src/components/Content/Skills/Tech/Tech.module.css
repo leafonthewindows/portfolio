@@ -5,15 +5,26 @@
     height: 100px;
     width: 100px;
     background-color: black;
-    /* color: black; */
     border: 1px solid #099;
     border-radius: 5px;
     margin: 0.5rem;
 }
 
-@media (min-width: 600px){
+@media screen and (min-width: 600px){
     .tech{
         height: 150px;
         width: 150px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .tech{
+        height: 180px;
+        width: 180px;
+    }
+}
+@media screen and (min-width: 1366px){
+    .tech{
+        height: 225px;
+        width: 225px;
     }
 }
