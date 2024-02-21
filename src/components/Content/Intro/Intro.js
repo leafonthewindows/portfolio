@@ -7,14 +7,14 @@ const Intro = (props) => {
         <Card>
             <div className={styles["intro-wrapper"]}>
                 <div className={styles["small-pic-div"]}>
-                    <img className={styles["small-pic"]} src={require("../../../assets/images/Fotor_Face_Small.png")} alt="colorful abstract picture"/>
+                    <img className={styles["small-pic"]} src={require("../../../assets/images/Fotor_Face_Small.jpg")} alt="colorful abstract portrait"/>
                 </div>
                 <div className={styles["text"]}>
                     <h1>From idea to screen and everything between.</h1>
                     <p>I'm a full-stack web developer ready to flex my skills for your latest endeavors.  Let's build something great together!</p>
                 </div>
                 <div className={styles["large-pic-div"]}>
-                    <img className={styles["large-pic"]} src={require("../../../assets/images/Fotor_Face.png")} alt="portrait painting"/>
+                    <img className={styles["large-pic"]} src={require("../../../assets/images/Fotor_Face.jpg")} alt="portrait painting"/>
                 </div>
             </div>
 
