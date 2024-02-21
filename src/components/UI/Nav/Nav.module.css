@@ -18,6 +18,10 @@
   text-decoration: none;
 }
 
+.nav-bar a:hover{
+  text-shadow: #eee 1px 1px 5px;
+}
+
 .home{
   display: flex;
   justify-content: flex-start;
@@ -36,7 +40,7 @@
   display: none;
 }
 
-@media((min-width: 600px)) {
+@media screen and (min-width: 600px) {
   .nav-bar{
     padding: 0rem 2rem;
     width: calc(100% - 4rem);
@@ -54,5 +58,21 @@
     justify-content: space-between;
     width: 60%;
     font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1024px){
+  .home{
+    font-size: 2rem;
+  }
+  .downpage-links{
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1366px){
+  .home{
+    font-size: 2.5rem;
+  }
+  .downpage-links{
+    font-size: 2rem;
   }
 }

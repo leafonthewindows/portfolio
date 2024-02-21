@@ -1,5 +1,4 @@
 .title{
-    /* padding-top: 3rem; */
     font-size: 3rem;
 }
 
@@ -10,13 +9,27 @@
 }
 
 .about-paragraph{
-    max-width: 1000px;
-    padding: 0rem 1rem;
+    max-width: 80%;
 }
 
-@media(min-width: 600px){
+@media screen and (min-width: 600px){
+    .title{
+        font-size: 4rem;
+    }
     .about-paragraph{
         font-size: 1.5rem;
-        padding: 1rem 3rem;
+    }
+}
+@media screen and (min-width: 1024px){
+    .title{
+        font-size: 5rem;
+    }
+    .about-paragraph{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 1366px){
+    .about-paragraph{
+        font-size: 3rem;
     }
 }
